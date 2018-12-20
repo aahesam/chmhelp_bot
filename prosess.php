@@ -125,7 +125,7 @@ $cap="mrfenj";
 $content = file_get_contents("php://input");
 $update = json_decode($content, true);
 
-$bot_id="237966204:AAExLADwKL5KCi54dRF1nF7xLHH4dGCuewA";
+$bot_id="751222329:AAFtXgIeRwPNZCh1plOec1dv5ULeb0pwXoQ";
 if (isset($update["message"])) {
 	
   processMessage($update["message"],$bot_id);
